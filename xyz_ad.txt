@@ -1,0 +1,22 @@
+#!name = 小宇宙开屏广告
+#!desc = 去除小宇宙开屏广告
+#!openUrl = 
+#!author = TEM
+#!tag = 自用
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/cn.png
+#!date = 2025-01-09
+#!keyword= 去广告
+
+[Rule]
+
+
+[Rewrite]
+
+# 小宇宙
+^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/flash-screen\/list reject-dict
+
+
+[MitM]
+api.xiaoyuzhou.com
