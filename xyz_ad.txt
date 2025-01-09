@@ -19,4 +19,4 @@
 
 
 [MitM]
-api.xiaoyuzhou.com
+hostname = api.xiaoyuzhou.com
