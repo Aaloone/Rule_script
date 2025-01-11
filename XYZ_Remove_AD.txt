@@ -15,7 +15,7 @@
 [Rewrite]
 
 # 小宇宙
-^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/flash-screen\/list reject-dict
+^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/flash-screen\/list - reject-dict
 
 
 [MitM]
