@@ -135,22 +135,22 @@ DOMAIN-SUFFIX,sis001.com,日本节点
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/trade\/order\/getOftenBuyGoods reject-dict
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/goods-portal\/spu\/searchRecommendPool reject-dict
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/configuration\/appVersionUpdate\/getAppVersionUpdateInfo reject-dict
+
 # 屏蔽更新
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/configuration\/portal\/beUpdate reject-dict
+
 # > 招商银行
 # hostname = webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com
 # 开屏广告
 ^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig reject-200
 # 首页横幅广告
 ^https?:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic reject-dict
+
 # > 中国银行
 # hostname = mlife.jf365.boc.cn
 # > 中国银行 缤纷生活
 ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 reject-200
 
-# > e充电
-# hostname = cdn-evone-ceph.echargenet.com
-^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89 reject-200
 
 [MitM]
-hostname = -*.byd.com.cn,*.sinaimg.cn,inoreader.com,iobs.pingan.com.cn, hcz-member.pingan.com.cn,gab.122.gov.cn,pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn,static.95508.com,cache.bydauto.com.cn,v.icbc.com.cn,static.95508.com, mps.95508.com,gfp.veta.naver.com, api.hanju.koudaibaobao.com,acs.m.taobao.com, acs-m.freshippo.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net,api-sams.walmartmobile.cn,webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com,mlife.jf365.boc.cn,cdn-evone-ceph.echargenet.com
+hostname = -*.byd.com.cn,*.sinaimg.cn,inoreader.com,iobs.pingan.com.cn, hcz-member.pingan.com.cn,gab.122.gov.cn,pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn,static.95508.com,cache.bydauto.com.cn,v.icbc.com.cn,static.95508.com, mps.95508.com,gfp.veta.naver.com, api.hanju.koudaibaobao.com,acs.m.taobao.com, acs-m.freshippo.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net,api-sams.walmartmobile.cn,webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com,mlife.jf365.boc.cn
