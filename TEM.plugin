@@ -21,8 +21,6 @@ DOMAIN-SUFFIX,zwduxs.com,DIRECT
 DOMAIN-SUFFIX,sis001.com,日本节点
 
 
-
-
 [Rewrite]
 # 新浪微博图片
 ^https:\/\/tvax\d\.sinaimg\.cn\/.* 302 https://image.baidu.com/search/down?url=$0
