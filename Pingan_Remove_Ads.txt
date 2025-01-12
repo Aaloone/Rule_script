@@ -9,6 +9,9 @@
 #!date = 2025-01-12
 #!keyword=TEM
 
+[Rule]
+DOMAIN-SUFFIX,pingan.com,DIRECT
+
 [Rewrite]
 # > 平安好车主
 # hostname = iobs.pingan.com.cn, hcz-member.pingan.com.cn
