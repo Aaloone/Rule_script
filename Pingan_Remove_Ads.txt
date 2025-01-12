@@ -16,5 +16,6 @@
 ^https?:\/\/iobs\.pingan\.com\.cn\/download\/icore-aops-base-dmz-prd\/(YourSystemName|icore-apps-ad) reject-200
 ^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox reject
 
+
 [MitM]
-hostname = hcz-member.pingan.com.cn
+hostname = iobs.pingan.com.cn, hcz-member.pingan.com.cn
