@@ -32,12 +32,6 @@ DOMAIN-SUFFIX,sis001.com,日本节点
 #^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery reject
 ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ reject
 
-# > 平安好车主
-# hostname = iobs.pingan.com.cn, hcz-member.pingan.com.cn
-^https?:\/\/iobs\.pingan\.com\.cn\/download\/bweb-per-sf-prd\/bweb reject-200
-^https?:\/\/iobs\.pingan\.com\.cn\/download\/icore-aops-base-dmz-prd\/(YourSystemName|icore-apps-ad) reject-200
-^https?:\/\/hcz-member\.pingan\.com\.cn\/micro-api\/homepage\/do\/app\/popbox\/getTopPopBox reject
-
 # > 百度网盘
 # hostname = pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx reject
@@ -151,4 +145,4 @@ DOMAIN-SUFFIX,sis001.com,日本节点
 
 
 [MitM]
-hostname = -*.byd.com.cn,*.sinaimg.cn,inoreader.com,iobs.pingan.com.cn, hcz-member.pingan.com.cn,gab.122.gov.cn,pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn,static.95508.com,cache.bydauto.com.cn,v.icbc.com.cn,static.95508.com, mps.95508.com,gfp.veta.naver.com, api.hanju.koudaibaobao.com,acs.m.taobao.com, acs-m.freshippo.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net,api-sams.walmartmobile.cn,webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com,mlife.jf365.boc.cn
+hostname = -*.byd.com.cn,*.sinaimg.cn,inoreader.com,gab.122.gov.cn,pan.baidu.com,ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn,static.95508.com,cache.bydauto.com.cn,v.icbc.com.cn,static.95508.com, mps.95508.com,gfp.veta.naver.com, api.hanju.koudaibaobao.com,acs.m.taobao.com, acs-m.freshippo.com,img.meituan.net, s3plus.meituan.net, flowplus.meituan.net,api-sams.walmartmobile.cn,webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com,mlife.jf365.boc.cn
