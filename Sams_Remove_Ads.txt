@@ -1,1 +1,17 @@
+#!name = 山姆去广告  
+#!desc = 个人自用重写规则
+#!openUrl = 
+#!author = 广告必须死
+#!tag = 自用
+#!system = 
+#!system_version = 
+#!icon = https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/color/cn.png
+#!date = 2025-04-18
+#!keyword=TEM
 
+
+[Rewrite]
+^https:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/channel\/portal\/AdgroupData\/queryAdgroup reject
+
+[MitM]
+hostname = api-sams.walmartmobile.cn
