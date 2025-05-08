@@ -1,7 +1,7 @@
 #!name = 小宇宙开屏广告
 #!desc = 去除小宇宙开屏广告
 #!openUrl = 
-#!author = TEM
+#!author = TEM@wish
 #!tag = 自用
 #!system = 
 #!system_version = 
@@ -16,7 +16,13 @@
 
 # 小宇宙
 ^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/flash-screen\/list - reject-dict
-
+# 移除ai总结
+^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/ai-summary reject-dict
+# 会员横幅设为不可点击
+^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/membership\/platform reject-dict
+# 移除小宇宙搜索框内容
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v1\/search reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v1\/category\/list-daily-suggestion reject-dict
 
 [MitM]
 hostname = api.xiaoyuzhoufm.com
