@@ -14,6 +14,9 @@
 ## www.baidu.com：
 skip-proxy = cqdcg.com
 
+[Host]
+iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
+
 [Rule]
 
 # DOMAIN-KEYWORD,byd,DIRECT
